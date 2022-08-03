@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .App-logo {
@@ -26,6 +29,22 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Post__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid darkslateblue;
+  margin-bottom: 10px;
+}
+
+.post button {
+  margin-left: 15px;
 }
 
 @keyframes App-logo-spin {
