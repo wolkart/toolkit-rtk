@@ -8,7 +8,7 @@ interface PostItemProps {
 export const PostItem: FC<PostItemProps> = ({post}) => {
     return (
         <div className='post'>
-            {post.id}. {post.title}
+            {post.id}. {post.title} {post.body}
             <button>Delete</button>
         </div>
     );
